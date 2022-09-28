@@ -8,6 +8,14 @@ using namespace std;
 
 void desenharMapa()
 {
+
+cout <<"Tutorial: \n";
+cout << "Tecla W movimenta o jogador para cima\n";
+cout << "Tecla A movimenta o jogador para esquerda\n";
+cout << "Tecla S movimenta o jogador para baixo\n";
+cout << "Tecla D movimenta o jogador para Direita\n\n";
+
+
     int i, j;
     for (i = 0; i < tamanhoAtual; i++)
     {
